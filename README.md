@@ -34,3 +34,8 @@ iStoreOS 就是在 OpenWRT 最基础最原始的固件基础上，加上了上�
 ## 更多 iStoreOS 功能，请关注我们的 B 站账号
 
 [酷友社 B 站账号](https://space.bilibili.com/1492058311?spm_id_from=333.788.0.0)
+
+## 问题反馈
+
+* 本项目 issue 反馈重大问题
+* 视频下方评论
