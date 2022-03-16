@@ -1,4 +1,4 @@
-# iStoreOS 问题收集跟自动化编译
+# iStoreOS 固件
 
 ## 介绍
 
@@ -20,3 +20,17 @@ iStoreOS 还提供了软件中心：iStore，尽可能解决插件之间的依�
 
 当然 iStoreOS 还有整套易有云 APP 的协助，可以远程管理系统，远程访问插件，远程访问文件，备份相册，看电影等。满足了很多用户折腾半天都搞不定的场景需求。
 
+## 原理
+
+iStoreOS 几乎都是通过 OpenWRT 标准组件形式实现，所有插件源代码如下：
+
+* https://github.com/linkease/nas-packages-luci
+* https://github.com/linkease/nas-packages
+* https://github.com/linkease/istore
+* https://github.com/linkease/openwrt-themedog
+
+iStoreOS 就是在 OpenWRT 最基础最原始的固件基础上，加上了上面插件的能力来实现。
+
+## 更多 iStoreOS 功能，请关注我们的 B 站账号
+
+[酷友社 B 站账号](https://space.bilibili.com/1492058311?spm_id_from=333.788.0.0)
