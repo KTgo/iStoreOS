@@ -28,9 +28,9 @@ iStoreOS 还提供了软件中心：iStore，尽可能解决插件之间的依�
 
 其它离线安装包，请靠自己的能力去寻找。这里不提供任何离线安装包。
 
-## 原理
+## 自己制作固件
 
-iStoreOS 几乎都是通过 OpenWRT 标准组件形式实现，所有插件源代码如下：
+iStoreOS 来源于官方的 OpenWRT Release 分支源码，几乎都是通过 OpenWRT 标准组件形式实现，所有插件源代码如下：
 
 * https://github.com/linkease/nas-packages-luci
 * https://github.com/linkease/nas-packages
