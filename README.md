@@ -20,6 +20,14 @@ iStoreOS 还提供了软件中心：iStore，尽可能解决插件之间的依�
 
 当然 iStoreOS 还有整套易有云 APP 的协助，可以远程管理系统，远程访问插件，远程访问文件，备份相册，看电影等。满足了很多用户折腾半天都搞不定的场景需求。
 
+## 使用方法
+
+* 默认IP http://192.168.100.1
+* 默认 eth0 是 WAN 口，其它都是 LAN。
+* 如果只有一个网口，则默认是 WAN，可以通过一些方式获取 WAN 口的 IP 去访问路由器
+
+其它离线安装包，请靠自己的能力去寻找。这里不提供任何离线安装包。
+
 ## 原理
 
 iStoreOS 几乎都是通过 OpenWRT 标准组件形式实现，所有插件源代码如下：
@@ -29,11 +37,18 @@ iStoreOS 几乎都是通过 OpenWRT 标准组件形式实现，所有插件源�
 * https://github.com/linkease/istore
 * https://github.com/linkease/openwrt-themedog
 
-iStoreOS 就是在 OpenWRT 最基础最原始的固件基础上，加上了上面插件的能力来实现。
+iStoreOS 就是在 OpenWRT 最基础最原始的固件基础上，加上了上面插件的能力来实现
+
+## 测试用例以及其它信息
+
+请查看 wiki 侧边栏：
+
+[Wiki](https://github.com/linkease/istoreos/wiki)
 
 ## 更多 iStoreOS 功能，请关注我们的 B 站账号
 
 [酷友社 B 站账号](https://space.bilibili.com/1492058311?spm_id_from=333.788.0.0)
+[酷友社 Youtube](https://www.youtube.com/channel/UCvENMyIFurJi_SrnbnbyiZw)
 
 ## 问题反馈
 
