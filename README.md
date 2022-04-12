@@ -23,8 +23,9 @@ iStoreOS 还提供了软件中心：iStore，尽可能解决插件之间的依�
 ## 使用方法
 
 * 默认IP http://192.168.100.1
-* 默认 eth0 是 WAN 口，其它都是 LAN。
-* 如果只有一个网口，则默认是 WAN，可以通过一些方式获取 WAN 口的 IP 去访问路由器
+* 默认密码：password
+* 如果只有一个网口，默认的网口是 LAN；如果大于一个网口，默认 eth0 是 WAN 口，其它都是 LAN。
+* 如果在 LAN 口修改 IP，或者任何修改之后导致无法连接路由器，都会导致刚才的修改被回滚。所以要修改 LAN/WAN 口 IP，可以选择强制应用，保证修改肯定生效。
 
 其它离线安装包，请靠自己的能力去寻找。这里不提供任何离线安装包。
 
@@ -50,7 +51,26 @@ iStoreOS 就是在 OpenWRT 最基础最原始的固件基础上，加上了上�
 [酷友社 B 站账号](https://space.bilibili.com/1492058311?spm_id_from=333.788.0.0)
 [酷友社 Youtube](https://www.youtube.com/channel/UCvENMyIFurJi_SrnbnbyiZw)
 
+
+### 功能介绍
+
+* 基于 OpenWRT 官方稳定分支，没魔改，通过 patch 方式修复了一些问题
+* 通过组件化并开源来支持[首页向导](https://github.com/linkease/nas-packages-luci/tree/main/luci/luci-app-quickstart)，[软件中心](https://github.com/linkease/istore) 等
+* 拨号向导
+* 网络共享设置向导
+* 磁盘格式化向导
+* Docker 设置向导
+* Aria2 下载设置向导
+* 软件中心
+* 支持已安装的软件备份+恢复，方便升级系统
+* 在线升级固件，插件会丢失。如果想插件快速恢复，请在 iStore --> 维护 --> 全量备份插件到另外一个分区
+* 移植了 5.10 的相关驱动，以支持部分 2.5G 网卡（待更多测试)
+
 ## 问题反馈
 
 * 本项目 issue 反馈重大问题
 * 视频下方评论
+
+## 预览
+
+TODO
