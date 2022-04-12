@@ -8,8 +8,8 @@ iStoreOS 是提供给入门级 OpenWRT 爱好者使用的固件，主要是为�
 * 简化 DNS 配置
 * 简化硬盘格式化流程（坑最多）
 * 提供 Samba 设置向导（原始的 OpenWRT 没提供 Samba 密码设置的功能）
-* Docker 配置向导（未完成）
-* 远程下载设置向导（未完成）
+* Docker 配置向导
+* 远程下载设置向导
 
 iStoreOS 还提供了软件中心：iStore，尽可能解决插件之间的依赖关系，可让大家自由自在安装插件。
 
@@ -74,3 +74,10 @@ iStoreOS 就是在 OpenWRT 最基础最原始的固件基础上，加上了上�
 ## 预览
 
 TODO
+
+### 鸣谢
+
+* [ziguayungui](https://github.com/ziguayungui)，[jjm2473](https://github.com/jjm2473)，[Koolshare LEDE 的作者 fw867](https://github.com/fw867)，[xiangfeidexiaohuo](https://github.com/xiangfeidexiaohuo)
+* [KoolCenter](https://www.koolcenter.com)，[易有云](https://www.linkease.com) 团队相关同事
+* OpenWRT 官方团队
+* 众多 OpenWRT 的固件或者插件开发者
