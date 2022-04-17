@@ -81,10 +81,18 @@ iStoreOS 目标是给入门者提供固件，并没有直接提供 action 来给
 * 在线升级固件，插件会丢失。如果想插件快速恢复，请在 iStore --> 维护 --> 全量备份插件到另外一个分区
 * 移植了 5.10 的相关驱动，以支持部分 2.5G 网卡（待更多测试)
 
-## 问题反馈
+### 功能组合
 
-* 本项目 issue 反馈重大问题
-* 视频下方评论
+* 建议使用[易有云 APP](https://doc.linkease.com) 做远程应用控制，方便手机远程控制应用
+* 建议用 [DDNSTO](https://www.ddnsto.com) 从网页域名远程访问路由器
+
+### 第三方离线包
+
+https://x88.ltd/dsj
+
+### 问题反馈
+
+* https://github.com/linkease/istoreos/issues
 
 ## 预览
 
