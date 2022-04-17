@@ -84,7 +84,8 @@ iStoreOS 目标是给入门者提供固件，并没有直接提供 action 来给
 
 ## 预览
 
-![首页](https://www.koolcenter.com/assets/image/20220417/1515363238219354112.jpeg)
+![首页1](https://www.koolcenter.com/assets/image/20220417/1515363189364101120.jpeg)
+![首页2](https://www.koolcenter.com/assets/image/20220417/1515363238219354112.jpeg)
 ![软件中心](https://www.koolcenter.com/assets/image/20220417/1515363341009162240.jpeg)
 
 ### 鸣谢
