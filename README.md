@@ -31,14 +31,25 @@ iStoreOS 还提供了软件中心：iStore，尽可能解决插件之间的依�
 
 ## 自己制作固件
 
-iStoreOS 来源于官方的 OpenWRT Release 分支源码，几乎都是通过 OpenWRT 标准组件形式实现，所有插件源代码如下：
+iStoreOS 来源于官方的 OpenWRT Release 分支源码，没有 fork 自己的分支，几乎都是通过 OpenWRT 标准组件形式实现。我们修改或者开发的部分，都以插件形式，具体源代码如下：
 
-* https://github.com/linkease/nas-packages-luci
-* https://github.com/linkease/nas-packages
-* https://github.com/linkease/istore
-* https://github.com/linkease/openwrt-themedog
+* https://github.com/linkease/nas-packages-luci 我们自己开发的插件 UI 代码
+* https://github.com/linkease/nas-packages 我们自己开发插件的程序代码，部分程序并不开源
+* https://github.com/linkease/istore 软件中心核心代码，包含备份插件功能等，全部开源
+* https://github.com/linkease/openwrt-themedog 本来尝试做的桌面主题，目前还有些问题
+* https://github.com/linkease/istore-packages 软件中心的一些非 OpenWRT 官方包
+* https://github.com/linkease/openwrt-app-actions 其他一些软件包
 
-iStoreOS 就是在 OpenWRT 最基础最原始的固件基础上，加上了上面插件的能力来实现
+iStoreOS 就是在 OpenWRT 最基础最原始的固件基础上，加上了上面插件的能力来实现。
+
+### 固件编译的 action 参考
+
+iStoreOS 目标是给入门者提供固件，并没有直接提供 action 来给高级用户自己编译固件，如果大家有动手能力，可以参考下面的第三方 action 编译自己的固件：
+
+* https://github.com/xiangfeidexiaohuo/OpenWrt_Build
+* https://github.com/xiangfeidexiaohuo/openwrt-packages
+
+上面为非我们提供的支持，只是提供给大家一个源代码参考。我们不会对任何结果或者过程负责。
 
 ## 测试用例以及其它信息
 
@@ -73,7 +84,8 @@ iStoreOS 就是在 OpenWRT 最基础最原始的固件基础上，加上了上�
 
 ## 预览
 
-TODO
+![首页](https://www.koolcenter.com/assets/image/20220417/1515363238219354112.jpeg)
+![软件中心](https://www.koolcenter.com/assets/image/20220417/1515363341009162240.jpeg)
 
 ### 鸣谢
 
