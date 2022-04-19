@@ -90,6 +90,16 @@ iStoreOS 目标是给入门者提供固件，并没有直接提供 action 来给
 
 https://x88.ltd/dsj
 
+### 第三方离线包制作
+
+iStoreOS 离线包不是一个压缩包，也没啥黑科技，而是借助第三方软件实现。原理是这个项目：https://github.com/megastep/makeself
+
+生成方法例子：
+
+./makeself.sh --nox11 ./xxx ./out/xxx_x86.run "OneClick install" ./install.sh
+
+把 ipk 跟 install.sh 结合在一起，本质会生成一个包含所有 ipk 跟 install.sh 的自解压自运行的程序。
+
 ### 问题反馈
 
 * https://github.com/linkease/istoreos/issues
