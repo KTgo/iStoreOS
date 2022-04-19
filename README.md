@@ -86,7 +86,7 @@ iStoreOS 目标是给入门者提供固件，并没有直接提供 action 来给
 * 建议使用[易有云 APP](https://doc.linkease.com) 做远程应用控制，方便手机远程控制应用
 * 建议用 [DDNSTO](https://www.ddnsto.com) 从网页域名远程访问路由器
 
-### 第三方离线包
+## 第三方离线包
 
 https://x88.ltd/dsj
 
@@ -100,9 +100,15 @@ iStoreOS 离线包不是一个压缩包，也没啥黑科技，而是借助第�
 
 把 ipk 跟 install.sh 结合在一起，本质会生成一个包含所有 ipk 跟 install.sh 的自解压自运行的程序。
 
-### 问题反馈
+## 问题反馈
 
 * https://github.com/linkease/istoreos/issues
+
+### 交流群汇总
+
+大家请选择加入 iStoreOS 固件互助群。
+
+* https://www.koolcenter.com/posts/117
 
 ## 预览
 
