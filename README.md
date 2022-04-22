@@ -122,3 +122,47 @@ iStoreOS 离线包不是一个压缩包，也没啥黑科技，而是借助第�
 * [KoolCenter](https://www.koolcenter.com)，[易有云](https://www.linkease.com) 团队相关同事
 * OpenWRT 官方团队
 * 众多 OpenWRT 的固件或者插件开发者
+
+## v20220422 版本更新说明
+
+### 新增驱动
+
+RTL8125B i40e
+
+### 新增功能
+
+1. 首页向导新增更多快捷入口
+2. 支持更好的局域网统计
+3. 支持快速修改内网IP
+4. 更方便的内网测速
+5. 命令行快捷修改 内网IP
+6. 更好的上网检测，能区别出来 DNS 的配置错误
+7. 增加 socat 插件
+
+### 修复 BUG 
+
+1. 有分区的情况下的，在线升级失败
+2. Argon 主题导致网页偶尔卡
+3. NAT 环回地址失败
+4. 旁路由的配置修复，强制配置 DNS，保证旁路由内部有网络
+5. Aria2 向导设置好文件夹权限
+6. 磁盘格式化更稳
+7. 重启网络模块导致 docker 安装错误
+
+### 注意事项
+
+如果在线升级失败，请下载[openwrt-21.02.1-2022042219-x86-64-squashfs-combined.img.gz](https://fw.koolcenter.com/iStoreOS/x86_64/openwrt-21.02.1-2022042219-x86-64-squashfs-combined.img.gz) 不用解压升级。
+
+命令行修改内网 IP 方法：
+
+```
+ quickstart lan --ip 192.168.99.1 --mask 255.255.255.0
+```
+
+也可以直接用
+
+```
+quickstart
+```
+
+进入交互模式修改 IP。（显示器模式下中文乱码，下个版本修复）
