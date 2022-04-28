@@ -65,6 +65,8 @@ iStoreOS 目标是给入门者提供固件，并没有直接提供 action 来给
 
 * [酷友社 B 站账号](https://space.bilibili.com/1492058311?spm_id_from=333.788.0.0)
 * [酷友社 Youtube](https://www.youtube.com/channel/UCvENMyIFurJi_SrnbnbyiZw)
+* [QQ 群](https://www.koolcenter.com/posts/117)
+* [TG 群](https://t.me/+QwxW7aimSMeRdQJX)
 
 
 ### 功能介绍
