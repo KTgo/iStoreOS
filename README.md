@@ -68,6 +68,15 @@ iStoreOS 目标是给入门者提供固件，并没有直接提供 action 来给
 * [QQ 群](https://www.koolcenter.com/posts/117)
 * [TG 群](https://t.me/+QwxW7aimSMeRdQJX)
 
+## 问题反馈
+
+* https://github.com/linkease/istoreos/issues
+
+### 交流群汇总
+
+大家请选择加入 iStoreOS 固件互助群。
+
+* https://www.koolcenter.com/posts/117
 
 ### 功能介绍
 
@@ -102,16 +111,6 @@ iStoreOS 离线包不是一个压缩包，也没啥黑科技，而是借助第�
 
 把 ipk 跟 install.sh 结合在一起，本质会生成一个包含所有 ipk 跟 install.sh 的自解压自运行的程序。
 
-## 问题反馈
-
-* https://github.com/linkease/istoreos/issues
-
-### 交流群汇总
-
-大家请选择加入 iStoreOS 固件互助群。
-
-* https://www.koolcenter.com/posts/117
-
 ## 预览
 
 ![首页1](https://www.koolcenter.com/assets/image/20220417/1515363189364101120.jpeg)
@@ -124,6 +123,17 @@ iStoreOS 离线包不是一个压缩包，也没啥黑科技，而是借助第�
 * [KoolCenter](https://www.koolcenter.com)，[易有云](https://www.linkease.com) 团队相关同事
 * OpenWRT 官方团队
 * 众多 OpenWRT 的固件或者插件开发者
+
+## v20220429 版本更新说明
+ 
+1. 修复：UI 配置界面，有时候卡主不动，非常影响体验
+2. 修复：table full, dropping packet
+3. 修复：首页改 DNS 的错误
+4. 增加 aliyun/dnspod DDNS
+5. 做一些兼容性，保证一些离线插件能运行
+6. 增加驱动：kmod-ath10k
+7. 增加 qb，tr 下载器的设置向导
+8. 把终端放到首页，更好找
 
 ## v20220422 版本更新说明
 
