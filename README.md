@@ -20,6 +20,15 @@ iStoreOS 还提供了软件中心：iStore，尽可能解决插件之间的依�
 
 当然 iStoreOS 还有整套易有云 APP 的协助，可以远程管理系统，远程访问插件，远程访问文件，备份相册，看电影等。满足了很多用户折腾半天都搞不定的场景需求。
 
+## 支持硬件
+
+* [ARS2](https://easepi.linkease.com) 官方硬件产品，没有这个产品，就没有这个项目
+* X86
+* R2S 开发中
+* R4S 开发中
+* R68S 开发中
+* R5S 开发中
+
 ## 固件下载
 
 https://fw.koolcenter.com/iStoreOS/
