@@ -57,6 +57,8 @@ iStoreOS 来源于官方的 OpenWRT Release 分支源码，没有 fork 自己的
 
 iStoreOS 就是在 OpenWRT 最基础最原始的固件基础上，加上了上面插件的能力来实现。
 
+`更新`：最近发现，用 patch 方式开发太麻烦，等稳定以后，还是计划 fork OpenWRT 代码，并开源到这里。这样也方便更多人参与到本项目。
+
 ### 固件编译的 action 参考
 
 iStoreOS 目标是给入门者提供固件，并没有直接提供 action 来给高级用户自己编译固件，如果大家有动手能力，可以参考下面的第三方 action 编译自己的固件：
