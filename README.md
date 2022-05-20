@@ -61,7 +61,7 @@ iStoreOS 就是在 OpenWRT 最基础最原始的固件基础上，加上了上�
 
 ### 固件编译的 action 参考
 
-iStoreOS 目标是给入门者提供固件，并没有直接提供 action 来给高级用户自己编译固件，如果大家有动手能力，可以参考下面的第三方 action 编译自己的固件：
+iStoreOS 目标是给入门者提供固件，暂时没提供 action 来给高级用户自己编译固件，如果大家有动手能力，可以参考下面的第三方 action 编译自己的固件：
 
 * https://github.com/xiangfeidexiaohuo/OpenWrt_Build
 * https://github.com/xiangfeidexiaohuo/openwrt-packages
@@ -199,16 +199,6 @@ RTL8125B i40e
 
 如果在线升级失败，请下载[openwrt-21.02.1-2022042219-x86-64-squashfs-combined.img.gz](https://fw.koolcenter.com/iStoreOS/x86_64/openwrt-21.02.1-2022042219-x86-64-squashfs-combined.img.gz) 不用解压升级。
 
-命令行修改内网 IP 方法：
+命令行修改内网 IP 方法，在终端输入：
 
-```
- quickstart lan --ip 192.168.99.1 --mask 255.255.255.0
-```
-
-也可以直接用
-
-```
 quickstart
-```
-
-进入交互模式修改 IP。（显示器模式下中文乱码，下个版本修复）
