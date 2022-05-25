@@ -37,6 +37,7 @@ https://fw.koolcenter.com/iStoreOS/
 
 ## 使用方法
 
+* [安装教程文档](https://doc.linkease.com/zh/guide/istoreos/install.html)
 * 默认IP http://192.168.100.1
 * 默认密码：password
 * 如果只有一个网口，默认的网口是 LAN；如果大于一个网口，默认 eth0 是 WAN 口，其它都是 LAN。
