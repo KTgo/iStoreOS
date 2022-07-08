@@ -131,4 +131,4 @@ iStoreOS 离线包不是一个压缩包，也没啥黑科技，而是借助第�
 
 ### 版本日志
 
-TODO
+* [请查看这里](https://doc.linkease.com/zh/guide/istoreos/changelog.html)获取更多更新日志
